@@ -8,10 +8,16 @@
 }
 
 section.home{
-    position: absolute;
+    /* position: absolute; */
+    display: flex;
     width: 100%;
     height: 100vh;
     overflow: hidden;
+    justify-content: center;
+	cursor: default;
+	min-height: 35em;
+	position: relative;
+	text-align: center;
 }
 
 section.home video{
@@ -89,6 +95,11 @@ a{
     padding: 0 10% 10% 10%;
     width:100%;
 }
+.about div{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
 
 .about img{
     flex: 1;
@@ -104,6 +115,8 @@ a{
     margin-top: 7%;
     margin-bottom: 3%;
     width: 100%;
+    width: 100vw;
+    position: relative;
     z-index: 1;
 }
 
@@ -213,7 +226,7 @@ a{
 
 @media screen and (max-width: 1200px){
     .about{
-        margin-top: 25%;
+        margin-top: 10%;
         flex-direction: column;
         height: auto;
     }
@@ -221,7 +234,7 @@ a{
         object-fit: cover;
     }
     .label{
-        position: absolute;
+        position: relative;
         top: 5%;
     }
     .menu{
@@ -235,7 +248,7 @@ a{
         width: 80vw;
     }
     .teamMember{
-        margin-top: 30%;
+        margin-top: 10%;
     }
     .contactAll{
         margin-top: 20%;
@@ -247,7 +260,7 @@ a{
 
 @media screen and (max-width: 700px){
     .teamMember{
-        margin-top: 45%;
+        margin-top: 10%;
     }
     .contactAll img{
         display: none;
