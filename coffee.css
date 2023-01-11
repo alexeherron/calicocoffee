@@ -48,6 +48,9 @@ section.home h2{
     background: black;
     mix-blend-mode: multiply;
 }
+section.home h2 a{
+    color:white;
+}
 
 nav{
     position: absolute;
