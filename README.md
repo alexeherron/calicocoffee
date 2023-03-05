@@ -2,6 +2,7 @@
 This is a static website for Calico Coffeeshop, highlighting their menu, team, and overall atmosphere.
 
 **Link to project:** [Calico Coffee](https://calicocoffee.netlify.app/)
+![gif of site](https://share.getcloudapp.com/8LuqyyxL "Calico Coffee")
 
 ## How It's Made:
 
